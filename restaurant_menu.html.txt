@@ -138,22 +138,32 @@
      <h2>Place your Order</h2>
      <form>
       <h3>Your Selection</h3>
-      <label for="title"><p> Spaghetti Alla Carbonara: </p><input type="number" min="0" step="1">
-      <label for="title"><p> Pasta All'Amatriciana: </p><input type="number" min="0" step="1">
-      <label for="title"><p> Cacio e Pepe: </p><input type="number" min="0" step="1">
+      <label for="title1">
+	<p> Spaghetti Alla Carbonara: </p>
+      </label>
+        <input type="number" min="0" step="1" style= "height:15px;">
+      <label for="title2">
+	<p> Pasta All'Amatriciana: </p>
+      </label>
+        <input type="number" min="0" step="1" style= "height:15px;">
+      <label for="title3">
+	<p> Cacio e Pepe: </p>
+      </label>
+	<input type="number" min="0" step="1" style= "height:15px;">
       <br><br><br>
       <fieldset>
       <legend><h3>Add-ons</h3></legend>
-      <input type="checkbox"> Pecorino Romano ($2)<br>
-      <input type="checkbox"> Parmigiano Reggiano ($3)<br>
-      <input type="checkbox"> Extra guanciale ($1.5)<br>
-      <input type="checkbox"> Drizzle of olive oil ($1.5)<br>
+      <input type="checkbox"> <label for="AOn1">Pecorino Romano ($2)</label><br>
+      <input type="checkbox"> <label for="AOn2">Parmigiano Reggiano ($3)</label><br>
+      <input type="checkbox"> <label for="AOn3">Extra guanciale ($1.5)</label><br>
+      <input type="checkbox"> <label for="AOn4">Drizzle of olive oil ($1.5)</label><br>
       </fieldset>
       <br><br>
-      <h3>Special Requests</h3>
+      <label for="tArea"><h3>Special Requests</h3></label>
       <textarea id="data-entry" rows="5" cols="42" placeholder="Tell us!"></textarea>
       <br><br><br><br>
       <input type="submit" value="Go To Checkout" style= "width:150px; height:30px; font-size:15px;">
+      <input type="reset" style= "width:150px; height:30px; font-size:15px;">
      </form>
    </section>
   </main>
