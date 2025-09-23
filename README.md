@@ -5,3 +5,5 @@
 # code uses an understanding of input types, forms, figures, fogcaptions, margins, displays and more
 
 # now updated with better breaks, and fieldlists
+
+# added more label's as well as some more fun with a reset button and increased size of the number input type "box"
