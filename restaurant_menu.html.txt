@@ -13,11 +13,15 @@
     }
     
     h1 {
-      font-size: 300%;
+      font-size: 350%;
     }
      
     h2 {
       font-size: 220%;
+    }
+
+    h3 {
+      font-size: 120%;
     }
     
     .pasta-pic, #header-img {
@@ -50,7 +54,12 @@
     }
 
     figure > figcaption, header {
-      text-align: center;   
+      text-align: center;  
+    } 
+    fieldset {
+      display: inline-block;
+      width: 21%;
+    }
   </style>
  </head.
  <body>
@@ -58,7 +67,7 @@
   <h1 style="text-align:center;">L'Amore di Amalfi</h1>
   <img id="header-img"
    style="display:block; margin: 0 auto;"
-   width="500"
+   width="600"
    src="https://www.touristitaly.com/wp-content/uploads/2023/11/shutterstock_1054754711.jpg"
    alt="L'Amore di Amalfi"
   />
@@ -83,7 +92,7 @@
     <figure>
      <img 
       class="pasta-pic"
-      width="430"
+      width="500"
       src="https://www.mamablip.com/ir/800/storage/Traditional-Spaghetti-alla-Carbonara_1131611747132.jpg"
       alt="spaghetti alla carbonara"
       />
@@ -99,7 +108,7 @@
     <figure>
      <img 
       class="pasta-pic"
-      width="430"
+      width="500"
       src="https://www.andy-cooks.com/cdn/shop/articles/20250523052019-dinner-20for-20one-20-20spaghetti-20recipe_a6df358c-4930-4f91-b3f6-a8af793c0d30.jpg?v=1751520089&width=1600"
       alt="pasta all'amatriciana"
      />
@@ -115,10 +124,11 @@
     <figure>
      <img
       class="pasta-pic"
-      width="430"
+      width="500"
       src="https://www.177milkstreet.com/assets/site/Recipes/_large/Updated-Cacio-e-Pepe.jpg"
       alt="cacio e pepe"
      />
+     <br>
      <figcaption><p style= "color:black;"> <i>Cacio e Pepe, the most rustic a simple version of them all, the foundation. All you have here are 3 ingredients: Pecorino Romano, Black pepper, and love (pasta water!), and what you get is a creamy coating of flavor in every bite. <br><br> <strong>price= $10</strong></i></p></figcaption>
     </figure>
     <br><hr>
@@ -131,13 +141,15 @@
       <label for="title"><p> Spaghetti Alla Carbonara: </p><input type="number" min="0" step="1">
       <label for="title"><p> Pasta All'Amatriciana: </p><input type="number" min="0" step="1">
       <label for="title"><p> Cacio e Pepe: </p><input type="number" min="0" step="1">
-      <br><br>
-      <h3>Add-ons</h3>
+      <br><br><br>
+      <fieldset>
+      <legend><h3>Add-ons</h3></legend>
       <input type="checkbox"> Pecorino Romano ($2)<br>
       <input type="checkbox"> Parmigiano Reggiano ($3)<br>
       <input type="checkbox"> Extra guanciale ($1.5)<br>
       <input type="checkbox"> Drizzle of olive oil ($1.5)<br>
-      <br>
+      </fieldset>
+      <br><br>
       <h3>Special Requests</h3>
       <textarea id="data-entry" rows="5" cols="42" placeholder="Tell us!"></textarea>
       <br><br><br><br>
